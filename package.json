@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "Demo Project",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": "https://github.com/BEchoDot/DemoProject.git",
   "author": "bkav.echodot@gmail.com",
-  "license": "Apache License 2.0"
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
