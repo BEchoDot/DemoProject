@@ -31,3 +31,9 @@ branches:
 # script: scripts/test.sh
 # install: skip
 # before_install: skip
+deploy:
+  provider: heroku
+  app: bechodemoapp1
+  # run: "yarn run start"
+  api_key:
+    secure: LZmBuVM/EZ071VS136hTm/dD771w99bs0Qf97UkU2I/0B8Phj0xIkKghqtNUA9sSVHYds/JYdXQn1kTHmCAy+s4iIJOSaGJYr4f7FhDNdzqkCo/nXxE4U/hSQF6IAY0n58MFXVzaRw8NS2fNznauSfWH8M6ehaYRKSUtYqWN4KufSK+3fx3wQEXVfZzqp+ZcgnuKAPehmudT2GHx4Kg8bJfIwZaB5cpGzkxDvZ72UQFLsvHgX+aG6cXUyLsVTQgHMob4se/z+pKyUIjnj6imsh3i/Z5MYjkut1l6m4Q8uupfoMpetUm5bpgISmtGapEOh8GEs2gvD/E6AA6II6tNTDtJNaJl+6zrjom3poZPddKvnRYhfMJoDXZoboq543QKSI3v0VS6qvTvl1nRGOQj/1VVQi5tPMO+HUGzi+N9lfuDA/uLHrCPE0D+lnxzv5GxQSR3Eg0KUnWczcu6b9ZA41jGKkzN0/H1omZXV3nyFjh0h0BbA96TcoF4Yaq/eRbNt/ItxVxXiai+LgCxpVZKRLAxxbr2LP4PddZJOBhAmdYy10jVM4wsrfcoJ/MBTmITwVDianwoCcuQ4wlI3glcZKZhkRZWIRL40TLesZKsWCAfTWxegv9+TcS+izlzUVRyzTcXhj16kaj/lWK4cq5FHID92/gbrUP/J2Sm2hXVzRk=
