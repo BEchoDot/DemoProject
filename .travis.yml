@@ -1,3 +1,33 @@
+os: linux
+dist: bionic
 language: node_js
 node_js:
+  # - 8
   - 12
+# git:
+  # depth: false
+  # quiet: true
+  # submodules: false
+branches:
+  # except:
+  #   - dev
+  only:
+    - master
+# env:
+#   global:
+#     - DELOY_NAME=global
+#   jobs:
+#     - DELOY_NAME=jobs
+# jobs:
+  # allow_failures:
+  #   -
+  # exclude:
+  #   -
+  # include:
+  #   - name: "Suite 1"
+  #     env: TEST_SUIT=suite_unit_1
+  #   - name: "Suite 2"
+  #     env: TEST_SUIT=suite_unit_2
+# script: scripts/test.sh
+# install: skip
+# before_install: skip
